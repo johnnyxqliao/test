@@ -20,7 +20,7 @@ def bubble_sort(numbers):
 
 
 if __name__ == "__main__":
-    nums = [37, 82, 14, 96, 5, 63, 28, 71, 44, 19, 90, 7, 56, 33, 68, 12, 100, 41]
+    nums = [37, 82, 14, 96, 5, 63, 28, 71, 44, 19, 90, 7, 56, 33, 68, 12, 100, 41, 25, 79, 3, 88, 52, 16, 74]
 
     start_time = time.perf_counter()
     sorted_nums = bubble_sort(nums)
